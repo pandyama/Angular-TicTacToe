@@ -39,6 +39,7 @@ export class GameplayComponent implements OnInit {
     this.squares = Array(9).fill(null);
     this.activePlayer = true;
     this.gameDone = false;
+    this.winner = "NONE";
   }
 
   pressed(input) {
